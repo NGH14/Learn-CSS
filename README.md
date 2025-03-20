@@ -3,8 +3,10 @@
 Setting Up Development Environment
 To work with SASS that needed to set up the environment:
 
-- Install Node.js: Download and install from nodejs.org
-- Install SASS: Run npm install -g sass in your terminal
+- Install Node.js: Download and install from [NodeJS](https://nodejs.org/en)
+- Install SASS: Run `npm install -g sass` in the terminal for running sass global
+
+- `sass --watch scss:css` to automatically compile your SASS files to CSS whenever they change.
 
 ## Sample Project Structure
 
@@ -15,7 +17,3 @@ To work with SASS that needed to set up the environment:
   │   └──...
   └── css/
 ```
-
-## SASS to CSS
-
-- `sass --watch scss:css` to automatically compile your SASS files to CSS whenever they change.
