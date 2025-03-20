@@ -25,12 +25,6 @@ body {
 
 ## Sass Variables vs CSS Variables
 
-Absolutely! Here's a more detailed comparison between **Sass variables** and **CSS variables** in table form:
-
----
-
-## 🧠 Sass Variables vs CSS Variables — Full Comparison Table
-
 | Feature                             | **Sass Variables** (`$var`)     | **CSS Variables** (`--var`) |
 | ----------------------------------- | ------------------------------- | --------------------------- |
 | **Evaluated at**                    | Compile-time                    | Runtime                     |
