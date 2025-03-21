@@ -4,23 +4,10 @@
 
 ## Example
 
-Simple example for SASS Variable
+`_variable.scss` is the simple implement of variable in sass. Run the command below:
 
-**_SCSS_**
-
-```scss
-$text-color: #fafbfa;
-body {
-  color: $primary-color;
-}
-```
-
-**_CSS_**
-
-```css
-body {
-  color: #fafafa;
-}
+```cmd
+sass --watch _variables.scss style.css
 ```
 
 ## Sass Variables vs CSS Variables
