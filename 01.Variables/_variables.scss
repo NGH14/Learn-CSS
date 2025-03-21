@@ -1,0 +1,14 @@
+$track: minmax(200px, 1fr);
+
+.grid_collection {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, $track);
+  gap: 5%;
+}
+
+.grid_collection .grid_item {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 5px;
+}
