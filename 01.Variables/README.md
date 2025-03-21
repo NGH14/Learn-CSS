@@ -14,4 +14,3 @@
 ```cmd
 sass --watch _variables.scss style.css
 ```
-
