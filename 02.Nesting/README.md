@@ -20,7 +20,7 @@ header {
 
 ## Example
 
-`_nesting.scss` is the simple implement of variable in sass. Run the command below:
+`_nesting.scss` is the simple implement of nesting in sass. Run the command below:
 
 ```cmd
 sass --watch _nesting.scss style.css
