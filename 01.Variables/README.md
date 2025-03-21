@@ -5,7 +5,6 @@
 ```scss
   $primary: #fafafa;
   color: $primary;
-}
 ```
 
 ## Example
@@ -25,7 +24,7 @@ sass --watch _variables.scss style.css
 | **Scoped**                          | ❌                              | ✅ (`:root`, etc.)          |
 | **Browser support**                 | ✅ All (after compile)          | ❌ IE11 support             |
 | **JavaScript access**               | ❌                              | ✅                          |
-| **Media query support**             | ❌                              | ✅                          |
+| **Media query support**             | ❌                              |   ✅                          |
 | **Functions & logic**               | ✅ (loops, conditionals)        | ❌                          |
 | **Visible in DevTools**             | ❌                              | ✅                          |
 | **Theming support**                 | ⚠️ Only with compile-time logic | ✅ Easy runtime theming     |
