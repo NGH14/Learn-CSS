@@ -1,9 +1,9 @@
-$track: minmax(200px, 1fr);
+$track: minmax(150px, 1fr);
 
 .grid_collection {
   display: grid;
   grid-template-columns: repeat(auto-fit, $track);
-  gap: 5%;
+  gap: 30px;
 }
 
 .grid_collection .grid_item {
