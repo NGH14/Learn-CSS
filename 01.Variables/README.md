@@ -7,6 +7,7 @@
   color: $primary;
 }
 ```
+
 ## Example
 
 `_variable.scss` is the simple implement of variable in sass. Run the command below:
