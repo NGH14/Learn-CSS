@@ -7,18 +7,14 @@
 - The `@include` directive create to use the created mixin.
 
 ```scss
-header {
-  nav {
-    ul {
-      margin: 0;
-      padding: 0;
-      list-style: none;
-    }
+@mixin flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
-    li {
-      display: inline-block;
-    }
-  }
+main {
+@include flex-center;
 }
 ```
 

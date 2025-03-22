@@ -1,3 +1,22 @@
+@mixin border-radius($radius) {
+  -webkit-border-radius: $radius;
+  -moz-border-radius: $radius;
+  -ms-border-radius: $radius;
+  border-radius: $radius;
+}
+
+@mixin box-shadow($x, $y, $blur, $spread, $color) {
+  -webkit-box-shadow: $x $y $blur $spread $color;
+  -moz-box-shadow: $x $y $blur $spread $color;
+  box-shadow: $x $y $blur $spread $color;
+}
+
+@mixin flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -10,30 +29,28 @@ body {
   margin: 1em;
   display: grid;
   place-items: center;
-  background-color: #fbfafa;
+  background-color: #171111;
   font-family: 'Inter', sans-serif;
+  overflow: hidden;
 }
 
-nav {
-  padding: 15px;
+.card {
+  background: white;
+  padding: 20px;
+  display: flex;
+  flex-flow: column wrap;
+  gap: 20px;
+  @include border-radius(8px);
+  @include box-shadow(0, 4px, 8px, 0, rgba(0, 0, 0, 0.1));
+  margin-bottom: 20px;
 
-  ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-
-    li {
-      margin-right: 20px;
-
-      a {
-        text-decoration: none;
-        font-weight: bold;
-
-        &:hover {
-          text-decoration: underline;
-        }
-      }
-    }
+  button {
+    background: #3498db;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    @include border-radius(4px);
+    font-weight: bold;
+    cursor: pointer;
   }
 }
