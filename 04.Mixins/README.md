@@ -2,6 +2,10 @@
 
 > Some things in CSS are a bit tedious to write, especially with CSS3 and the many vendor prefixes that exist. A mixin lets you make groups of CSS declarations that you want to reuse throughout your site. It helps keep your Sass very DRY. You can even pass in values to make your mixin more flexible. Here’s an example for theme.
 
+- The `@mixin` directive create CSS code that reused.
+
+- The `@include` directive create to use the created mixin.
+
 ```scss
 header {
   nav {
