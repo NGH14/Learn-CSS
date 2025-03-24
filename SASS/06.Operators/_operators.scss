@@ -1,0 +1,44 @@
+@use 'sass:math';
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100dvw;
+  height: 100dvh;
+  margin: 1em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #171111;
+  font-family: 'Inter', sans-serif;
+  overflow: hidden;
+  color: #fbfafa;
+}
+
+$container-width: 960px;
+$column-count: 12;
+$gutter: 20px;
+
+.container {
+  width: $container-width;
+  margin: 0 auto;
+  padding: 0 $gutter / 2;
+}
+
+.row {
+  display: flex;
+  margin: 0 -($gutter / 2);
+  text-align: center;
+}
+
+@for $i from 1 through $column-count {
+  .col-#{$i} {
+    width: ($container-width / $column-count) * $i;
+    padding: $gutter;
+    border: 1px solid #fbfafa;
+  }
+}
