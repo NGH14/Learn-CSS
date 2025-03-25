@@ -14,3 +14,4 @@ To work with SASS that needed to set up the environment:
 
 - [SASS Reference](https://sass-lang.com/guide/)
 - [SASS Documentation](https://sass-lang.com/documentation/)
+- [SASS Boilerplate](https://github.com/KittyGiraudel/sass-boilerplate)
