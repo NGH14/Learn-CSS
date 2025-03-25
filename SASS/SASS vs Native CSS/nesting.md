@@ -1,10 +1,10 @@
 # SASS/SCSS Nesting vs CSS Nesting
 
-| Feature                                  | **SASS\***             | **CSS Variables** |
-| ---------------------------------------- | ---------------------- | ----------------- |
-| **Evaluated at**                         | Compile-time           | Runtime           |
-| **Browser support**                      | ✅ All (after compile) | 90.82%            |
-| **Suffix Parent Selector**               | ✅                     | ❌                |
+| Feature                    | **SASS\***             | **CSS**           |
+| -------------------------- | ---------------------- | ----------------- |
+| **Evaluated at**           | Compile-time           | Runtime by `is()` |
+| **Browser support**        | ✅ All (after compile) | 90.82%            |
+| **Suffix Parent Selector** | ✅                     | ❌                |
 
 ## Suffix Parent Selector
 
@@ -14,16 +14,19 @@
 
 ```scss
 .class {
-  &-suffix { /* ... */ }
+  &-suffix {
+    /* ... */
+  }
 }
 ```
 
 - CSS:
 
 ```css
-.foo-suffix {/* ... */}
+.foo-suffix {
+  /* ... */
+}
 ```
-
 
 ## Resource
 
