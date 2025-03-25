@@ -18,6 +18,6 @@
 
 - CSS Variables: runtime flexibility, dynamic, JavaScript interaction. According to [CANIUSE](https://caniuse.com/css-variables), `96.89%` CSS Variables supported in global brownsers.
 
-![CSS Variable in caniuse 2025](<CSSVariable(Caniuse).png>)
+![CSS Variable in caniuse 2025](<CSS_Variable(caniuse).png>)
 
 - SASS Variables: powerful compile-time logic, better code organization, or needed to compatibility with very very older browsers.

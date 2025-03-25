@@ -1,0 +1,7 @@
+.test {
+  color: orange;
+
+  &div {
+    color: red;
+  }
+}
