@@ -12,7 +12,7 @@ main {
 
 ## Example
 
-`_operators_.scss` is the simple implement of operator in sass. Run the command below:
+`_operators.scss` is the simple implement of operator in sass. Run the command below:
 
 ```cmd
 sass --watch _operators.scss style.css
