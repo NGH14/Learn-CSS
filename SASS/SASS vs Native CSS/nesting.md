@@ -35,5 +35,3 @@
 - CSS Nesting: [CANIUSE CSS NESTING](https://caniuse.com/css-nesting), `90.82%` CSS Nesting supported in global browsers.
 
 ![CSS Nesting in caniuse 2025](<CSS_Nesting(caniuse).png>)
-
-[Suffix to the parent selector]{#suffix}
