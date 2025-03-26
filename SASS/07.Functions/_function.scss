@@ -1,0 +1,68 @@
+@use 'sass:color';
+@use 'sass:math';
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100dvw;
+  height: 100dvh;
+  margin: 1em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #171111;
+  font-family: 'Inter', sans-serif;
+  overflow: hidden;
+  color: #fbfafa;
+}
+
+$base-color: #ff4b2b;
+$text-color: #333;
+
+@function grid-width($columns, $total-columns: 12) {
+  @return math.div($columns, $total-columns) * 100%;
+}
+
+@function em($pixels, $context: 16) {
+  @return math.div($pixels, $context) * 1em;
+}
+
+.container {
+  width: 1200px;
+  margin-inline: auto;
+  font-size: 0;
+  letter-spacing: -1px;
+}
+
+.sidebar {
+  display: inline-block;
+  border-radius: 8px;
+  width: grid-width(3);
+  padding: em(20);
+  font-size: 16px;
+  letter-spacing: normal;
+  background-color: color-mix(in hsl, $base-color, transparent 70%);
+}
+
+.main-content {
+  display: inline-block;
+  border-radius: 15px;
+  width: grid-width(9);
+  padding: em(20);
+  font-size: 16px;
+  letter-spacing: normal;
+  background-color: color-mix(in hsl, $base-color, transparent 80%);
+}
+
+.button-primary {
+  background-color: $base-color;
+  padding: em(10) em(15);
+  margin-block: em(20);
+  font-size: em(18);
+  border-radius: em(4);
+}

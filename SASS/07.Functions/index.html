@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Example SASS Interpolation</title>
+    <title>Example SASS Functions</title>
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -14,11 +14,18 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <section class="container">
-    <button class="btn btn__sm">Small Button</button>
-      <button class="btn btn__md">Medium Button</button>
-      <button class="btn btn__lg">Large Button</button>
-      <button class="btn btn__xl">Extra Large Button</button>
-    </section>
+    <div class="container">
+      <div class="sidebar">
+        <h2>Sidebar</h2>
+        <p>This sidebar width is calculated using the grid-width() function</p>
+      </div>
+
+      <div class="main-content">
+        <h1>SASS Functions Demo</h1>
+        <p>SASS functions work</p>
+        <p>The padding and font sizes are calculated using the em() function</p>
+        <button class="button-primary">Learn More</button>
+      </div>
+    </div>
   </body>
 </html>
