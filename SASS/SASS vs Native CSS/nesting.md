@@ -32,7 +32,7 @@
 
 - [Sass and Native Nesting Document](https://sass-lang.com/blog/sass-and-native-nesting/)
 
-- CSS Nesting: [CANIUSE CSS NESTING](https://caniuse.com/css-nesting), `90.82%` CSS Nesting supported in global brownsers.
+- CSS Nesting: [CANIUSE CSS NESTING](https://caniuse.com/css-nesting), `90.82%` CSS Nesting supported in global browsers.
 
 ![CSS Nesting in caniuse 2025](<CSS_Nesting(caniuse).png>)
 
