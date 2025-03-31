@@ -1,0 +1,22 @@
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100dvw;
+  height: 100dvh;
+  background: radial-gradient(#fafafa, #ccd3d3);
+  font-family: 'Inter', sans-serif;
+}
+
+
+main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-flow: row wrap;
+  padding: 6rem;
+}

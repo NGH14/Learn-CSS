@@ -1,0 +1,23 @@
+@use '../variables' as *;
+.pills__list {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(100px, 1fr));
+  gap: 15px;
+
+  .pill {
+    font-size: 15px;
+    border: 2px solid $border-color;
+    box-shadow: 4px 4px 10px -4px $box-shadow-color;
+    padding: 20px;
+    border-radius: 50%;
+    width: 100px;
+    text-align: center;
+    &:hover {
+      transform: scale(1.1);
+    }
+  }
+  &:hover .pill:not(:hover) {
+    filter: blur(2px);
+    opacity: 0.8;
+  }
+}
