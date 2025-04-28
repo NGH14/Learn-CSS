@@ -9,7 +9,12 @@ List common stacking content scenarios:
 - `position:` `absolute` or `relative` also the `z-index` not `auto`
 - `position:` `fixed` or `sticky`
 - `mix-blend-mode` not `auto`
+- `opacity` less than `1`
 
-> [__List scenarios__](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_positioned_layout/Stacking_context#features_creating_stacking_contexts)
+### Resource
+
+- [_full version list scenarios_](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_positioned_layout/Stacking_context#features_creating_stacking_contexts).
+
+- [_z-index and stacking contexts_](https://web.dev/learn/css/z-index#creating_a_stacking_context).
 
 
