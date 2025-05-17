@@ -3,8 +3,6 @@
 > The goal of a reset stylesheet is to reduce browser inconsistencies in things like default line heights, margins and font sizes of headings, and so on. The general reasoning behind this was discussed in a May 2007 post, if you're interested. Reset styles quite often appear in CSS frameworks, and the original "meyerweb reset" found its way into Blueprint, among others.
 
 
-
-
 ## Full Reset
 
 > In other words, this is a starting point, not a self-contained black box of no-touchiness.
