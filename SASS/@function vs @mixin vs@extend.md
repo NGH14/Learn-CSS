@@ -14,11 +14,11 @@
 }
 
 .sm {
-  min-width: caculated-width(600px, 30px);
+  min-width: caculated-width(300px, 30px);
 }
 
 .m {
-  width: caculated-width(300px, 30px);
+  width: caculated-width(600px, 30px);
 }
 ```
 
