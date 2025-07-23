@@ -1,10 +1,10 @@
 # @function vs @mixin vs @extend
 
-|           | return           | reuse scenario                            | dynamic                            |
-| --------- | ---------------- | ----------------------------------------- | ---------------------------------- |
-| @function | value            | reuse it on **different CSS properties**. | caculation and return value        |
-| @mixin    | block style rule | reuse it on **same CSS properties**       | flexible value in same properties  |
-| @extend   | block style rule | reuse it on **same CSS properties**       | reuse the same block of style rule |
+|           | scenario                           | return           |
+| --------- | ---------------------------------- | ---------------- |
+| @function | caculation and return value        | value            |
+| @mixin    | flexible value in same properties  | block style rule |
+| @extend   | reuse the same block of style rule | block style rule |
 
 `@function` useful specifically because they _return_ values so that reuse in different `CSS` properties like `min-width` and `width` below
 
